@@ -1,6 +1,6 @@
-package StrategyPattern.QuackBehaviour.impl;
+package StrategyPattern.model.QuackBehaviour.impl;
 
-import StrategyPattern.QuackBehaviour.QuackBehaviour;
+import StrategyPattern.model.QuackBehaviour.QuackBehaviour;
 
 public class Squeak implements QuackBehaviour {
     @Override

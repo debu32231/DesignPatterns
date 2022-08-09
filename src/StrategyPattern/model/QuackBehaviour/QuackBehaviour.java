@@ -1,4 +1,4 @@
-package StrategyPattern.QuackBehaviour;
+package StrategyPattern.model.QuackBehaviour;
 
 public interface QuackBehaviour {
     void quack();

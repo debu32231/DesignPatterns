@@ -1,6 +1,6 @@
-package StrategyPattern.FlyBehaviour.impl;
+package StrategyPattern.model.FlyBehaviour.impl;
 
-import StrategyPattern.FlyBehaviour.FlyBehaviour;
+import StrategyPattern.model.FlyBehaviour.FlyBehaviour;
 
 public class FlyWithWings implements FlyBehaviour {
 
