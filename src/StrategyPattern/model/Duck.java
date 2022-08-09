@@ -5,17 +5,17 @@ import StrategyPattern.model.QuackBehaviour.QuackBehaviour;
 
 public abstract class Duck {
 
-    public FlyBehaviour flyBehaviour;
-    public QuackBehaviour quackBehaviour;
+    protected FlyBehaviour flyBehaviour;
+    protected QuackBehaviour quackBehaviour;
 
     public abstract void display();
 
     public void performFly(){
-        flyBehaviour.fly();
+        this.flyBehaviour.fly();
     }
 
     public void performQuack(){
-        quackBehaviour.quack();
+        this.quackBehaviour.quack();
     }
 
     public void swim(){

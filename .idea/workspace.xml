@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e047f19-079f-48b4-86c1-a86b4adbd381" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/model/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/FlyBehaviour/FlyBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/FlyBehaviour/FlyBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/FlyBehaviour/impl/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/FlyBehaviour/impl/FlyNoWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/FlyBehaviour/impl/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/FlyBehaviour/impl/FlyWithWings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/QuackBehaviour/QuackBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/QuackBehaviour/QuackBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/QuackBehaviour/impl/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/QuackBehaviour/impl/Quack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/QuackBehaviour/impl/Silence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/QuackBehaviour/impl/Silence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/QuackBehaviour/impl/Squeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/QuackBehaviour/impl/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/model/impl/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/model/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyPattern/model/Duck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,27 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Trantor.RunConfiguration" factoryName="Trantor.RunConfiguration" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyPattern.Main" />
+      <module name="DesignPatterns" />
+      <option name="VM_PARAMETERS" value="-Dspring.output.ansi.enabled=ALWAYS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StrategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Trantor.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660038201214</updated>
-      <workItem from="1660042601130" duration="1311000" />
+      <workItem from="1660042601130" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1660038330802</created>
@@ -97,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660053541318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit">
+      <created>1660053895724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053895724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
